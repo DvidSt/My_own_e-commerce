@@ -1,11 +1,9 @@
-.inicio_login button{
-    height: 2.1rem;
-    width: 10rem;
+.inicio_login a{
     border: .15rem solid  #2A7AE4;
-    border-radius: 1rem ;
+    border-radius: 100px ;
     background-color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bolder;
     color: #2A7AE4;
-   
+   padding: .5rem 2rem;
 }

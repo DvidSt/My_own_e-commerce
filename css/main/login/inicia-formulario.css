@@ -1,0 +1,23 @@
+.inicia__formulario{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+.inicia__formulario_elemento{
+    width: 30rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.inicia__formulario_enviar{
+    background-color:  #2A7AE4;
+    height: 3rem;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    
+}
