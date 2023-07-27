@@ -1,0 +1,4 @@
+.contenido_star{
+    display: flex;
+    flex-direction: column;
+}

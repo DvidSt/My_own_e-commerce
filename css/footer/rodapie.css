@@ -1,0 +1,9 @@
+.rodapie{
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: start;
+    margin-top: 2%;
+}

@@ -1,0 +1,15 @@
+.rodapie__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 30%;
+    height: 100%;
+
+}
+
+.rodapie__formulario h4{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin-top: 1.5rem;
+}

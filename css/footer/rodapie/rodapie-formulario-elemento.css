@@ -1,0 +1,34 @@
+.rodapie__formulario__elemento{
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+.persistent-placeholder {
+    width: 100%;
+    height: 3rem;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    text-justify: end;
+
+  }
+  
+  .placeholder {
+    position: absolute;
+    top: 10px; /* Ajusta la posición vertical según tus necesidades */
+    left: 10px; /* Ajusta la posición horizontal según tus necesidades */
+    pointer-events: none; /* Permite hacer clic y seleccionar el texto en el input */
+    color: #888; /* Color del placeholder persistente */
+  }
+
+  .rodapie__formulario__boton{
+    margin-top: 1rem;
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.1rem;
+    border: none;
+    background-color: #2A7AE4;
+    color: white;
+  }
