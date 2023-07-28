@@ -5,7 +5,7 @@
 }
 
 .inicia__formulario_elemento{
-    width: 30rem;
+    width: 100%;
     height: 3rem;
     border: none;
     border-radius: 5px;
@@ -21,3 +21,4 @@
     border: none;
     
 }
+

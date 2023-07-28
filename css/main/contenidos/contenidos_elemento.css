@@ -22,3 +22,18 @@
     font-size: 1rem;
     font-weight: bolder;
 }
+
+@media screen and (max-width:768px) {
+    .contenidos_elemento img{
+        width: 8rem;
+        height: 8rem;
+        object-fit: cover;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
+    .contenidos_elemento p{
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+        font-size: .7rem;
+    }
+}

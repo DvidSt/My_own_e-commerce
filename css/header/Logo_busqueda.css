@@ -1,6 +1,11 @@
 .Logo_busqueda{
     display: flex;
     align-items: center;
-   
-    
+}
+
+@media screen and (max-width:768px) {
+    .Logo_busqueda{
+        
+        flex-direction: column;
+    }
 }

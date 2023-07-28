@@ -13,3 +13,9 @@
     font-weight: bolder;
     margin-top: 1.5rem;
 }
+
+@media screen and (max-width:768px) {
+    .rodapie__formulario{
+        width: 80%;
+    }
+}

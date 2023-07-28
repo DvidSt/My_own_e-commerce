@@ -5,6 +5,7 @@
     padding-left: 5rem;
     padding-top: 10rem;
    padding-bottom:5rem ;
+   object-fit: cover;
 }
 
 .banner h2{
@@ -26,3 +27,34 @@
 
 
 }
+
+@media screen and (max-width:768px) {
+    .banner{
+        height: 200px;
+        flex-direction: column;
+        background-size: 100% 75%;
+        background-repeat:no-repeat ;
+        padding-top: 3rem;
+        padding-left: 2.5rem;
+    }
+    .banner h2{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .banner p{
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+    
+    .banner a{
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: white;
+        background-color: #2A7AE4;
+        padding: .5rem;
+    
+    
+    }
+}
+

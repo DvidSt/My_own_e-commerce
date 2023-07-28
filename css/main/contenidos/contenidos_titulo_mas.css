@@ -17,3 +17,18 @@
     padding: 2rem;
     
 }
+
+@media screen and (max-width:768px) {
+    .contenidos_titulo_mas a{
+        padding: 2rem;
+        font-size: 1rem;
+        background-repeat:no-repeat ;
+        background-position: 100px 30px;
+    }
+    
+    .contenidos_titulo_mas h3{
+        font-size: 1.5rem;
+        padding: 2rem;
+        
+    }
+}
