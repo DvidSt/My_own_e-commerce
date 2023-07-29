@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     margin: .5rem;
+    flex: 1 0 25%;
+    max-width: 100%;
+
    
 }
 .contenidos_elemento img{
@@ -24,6 +27,10 @@
 }
 
 @media screen and (max-width:768px) {
+    .contenidos_elemento{
+        flex:2 0 50%;
+        max-width: 100%;
+    }
     .contenidos_elemento img{
         width: 8rem;
         height: 8rem;

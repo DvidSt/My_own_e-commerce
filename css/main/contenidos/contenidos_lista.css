@@ -2,19 +2,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+    list-style: none;
+    padding: 0;
     overflow-x:hidden;
     overflow: hidden;
-}
-
-@media screen and (max-width:768px) {
-    .contenidos_lista{
-        align-items: center;
-        flex-direction: column;
-        height: 500px;
-        overflow-y:hidden;
-        flex-wrap: wrap;
-        overflow: hidden;
-        
-      
-    }
 }
