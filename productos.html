@@ -42,40 +42,41 @@
                 
 
                 <div class="producto__formulario_elemento">
-                    <input type="url" class="producto__persistent-placeholder" >
-                    <span class="producto__placeholder">Escriba la url de la imagen</span>
+                    <span class="producto__persistent-placeholder">Seleccione la imagen que llevara el producto</span>
+                    <input type="file" id="imagen" name="imagen" accept="image/*" title="Busque en su computador" class="producto__persistent-placeholder" required>
+                    
                 </div>
                 
                 
                 <div class="producto__formulario_elemento">
 
-                <select class="producto__persistent-placeholder" name="Categoria">
+                <select class="producto__persistent-placeholder" name="Categoria" required>
                     
                    
 
-                    <option>Seleccione una categoria</option>
+                    <option value="">Seleccione una categoria</option>
                     
-                    <option>Star Wars</option>
+                    <option value="1">Star Wars</option>
                     
-                    <option>Consolas</option>
+                    <option value="2">Consolas</option>
 
-                    <option>Diversos</option>
+                    <option value="3">Diversos</option>
                     
                     </select>
                 </div>
                 
                     <div class="producto__formulario_elemento">
-                        <input type="text" class="producto__persistent-placeholder" >
+                        <input type="text" class="producto__persistent-placeholder" pattern="^[a-zA-Z\s]{1,20}$" required>
                         <span class="producto__placeholder">nombre del producto</span>
                     </div>
 
                     <div class="producto__formulario_elemento">
-                        <input type="number" class="producto__persistent-placeholder" >
+                        <input type="text" class="producto__persistent-placeholder" pattern="^\d+(\.\d{1,2})?$" required>
                         <span class="producto__placeholder">precio del producto</span>
                     </div>
 
                     <div class="producto__formulario_elemento">
-                        <input type="text" class="producto__persistent-placeholder" >
+                        <input type="text" class="producto__persistent-placeholder" pattern=".{1,150}" required>
                         <span class="producto__placeholder">Descripcion del producto</span>
                     </div>
 
