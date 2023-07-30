@@ -107,16 +107,16 @@
                 <h4>Contacta con nosotros</h4>
 
                 <div class="rodapie__formulario__elemento">
-                    <input type="text" class="persistent-placeholder" >
+                    <input id="nombreMensaje" type="text" class="persistent-placeholder" pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]{1,40}$" title="Ingresa solo letras y espacios" required  maxlength="40" >
                     <span class="placeholder">Nombre</span>
                 </div>
 
                 <div class="rodapie__formulario__elemento">
-                    <input type="text" class="persistent-placeholder" >
+                    <input id="mensaje" type="text" class="persistent-placeholder" required maxlength="120" >
                     <span class="placeholder">Deja tu mensaje</span>
                 </div>
 
-                <input class="rodapie__formulario__boton" type="submit" value="Enviar mensaje">
+                <input class="rodapie__formulario__boton" type="submit" value="Enviar mensaje" onclick="validarMensaje()">
             </form>
         </section>
 
@@ -125,5 +125,7 @@
             <p>2023</p>
         </section>
     </footer>
+
+    <script src="javascript/validar-contacto.js"></script>
 </body>
 </html>
