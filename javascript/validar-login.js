@@ -18,6 +18,6 @@ function validarLogin() {
   }
 
   function redireccionar(){
-    window.location.href='/productos.html';
+    window.location.href='../productos.html';
 
   }
